@@ -31,11 +31,9 @@ set visualbell t_vb=
 
 set background=dark
 
-set relativenumber
 set gdefault
 set incsearch
 set showmatch
-set colorcolumn=81
 set showcmd
 set hidden
 set wildmenu
@@ -46,6 +44,11 @@ set ruler
 
 set t_Co=256
 colorscheme molokai
+
+if version >= 703
+    set relativenumber
+    set colorcolumn=81
+endif
 
 " Show trailing whitepace and spaces before a tab:
 highlight ExtraWhitespace ctermbg=red guibg=red
