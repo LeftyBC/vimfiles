@@ -31,7 +31,7 @@ set visualbell t_vb=
 
 set background=dark
 
-set relativenumber
+set number
 set gdefault
 set incsearch
 set showmatch
@@ -45,7 +45,7 @@ set ttyfast
 set ruler
 
 set t_Co=256
-colorscheme molokai
+colorscheme desert256
 
 " Show trailing whitepace and spaces before a tab:
 highlight ExtraWhitespace ctermbg=red guibg=red
@@ -91,5 +91,7 @@ vmap < <gv
 " set up a quick record shortcut
 " record with qq, stop with q, playback with Q
 nnoremap Q @q
+
+let g:Powerline_symbols = 'fancy'
 
 
