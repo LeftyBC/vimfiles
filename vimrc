@@ -44,7 +44,9 @@ set ttyfast
 set ruler
 
 set t_Co=256
-colorscheme desert256
+"colorscheme desert256
+colorscheme solarized
+
 
 if version >= 703
     set colorcolumn=81
