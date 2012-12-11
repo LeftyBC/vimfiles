@@ -31,10 +31,7 @@ set visualbell t_vb=
 
 set background=dark
 
-<<<<<<< HEAD
 set number
-=======
->>>>>>> 350aebe69b94ec420c18436f63c4e83ae2ddb634
 set gdefault
 set incsearch
 set showmatch
@@ -50,7 +47,6 @@ set t_Co=256
 colorscheme desert256
 
 if version >= 703
-    set relativenumber
     set colorcolumn=81
 endif
 
