@@ -99,4 +99,3 @@ nnoremap Q @q
 
 let g:Powerline_symbols = 'fancy'
 
-
