@@ -7,6 +7,7 @@ call pathogen#helptags()
 filetype on
 filetype indent on
 filetype plugin on
+filetype plugin indent on
 
 
 set nocompatible
@@ -42,6 +43,9 @@ set wildmode=list:longest
 set cursorline
 set ttyfast
 set ruler
+
+"Put swap files in a specific directory instead of polluting things
+set dir=~/.vimswaps//,/tmp//
 
 set t_Co=256
 "colorscheme desert256
